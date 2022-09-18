@@ -2,5 +2,7 @@ package com.observationclass.entity;
 
 public class Issue {
     private String name;
-    private int age;
+    private int mark;
+    private double point;
+    private String email;
 }
