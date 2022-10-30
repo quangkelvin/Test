@@ -31,7 +31,7 @@ public class AccountService {
   }
   public ApiResponse listAccount(){
       List<Account> lstAccount =accountRepository.findAll();
-      return new ApiResponse("http 200","success",accountRepository);
+      return new ApiResponse("http 200","success",null);
 
   }
 
